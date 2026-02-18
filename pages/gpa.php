@@ -4,8 +4,8 @@ session_start();
 // Student grades for first semester
 $students = [
     [
-        'matric' => 'MTN001',
-        'name' => 'Chukwu Obinna',
+        'matric' => '23/0001',
+        'name' => 'Egbu Roni',
         'courses' => [
             ['code' => 'WEB101', 'title' => 'Introduction to Web Development', 'score' => 78, 'units' => 3],
             ['code' => 'DB101', 'title' => 'Database Management Systems', 'score' => 85, 'units' => 3],
@@ -13,8 +13,8 @@ $students = [
         ]
     ],
     [
-        'matric' => 'MTN002',
-        'name' => 'Adeyemi Toluwani',
+        'matric' => '23/0002',
+        'name' => 'Chris-Esezobor Ejodamen',
         'courses' => [
             ['code' => 'WEB101', 'title' => 'Introduction to Web Development', 'score' => 82, 'units' => 3],
             ['code' => 'DB101', 'title' => 'Database Management Systems', 'score' => 79, 'units' => 3],
@@ -22,8 +22,8 @@ $students = [
         ]
     ],
     [
-        'matric' => 'MTN003',
-        'name' => 'Okafor Chioma',
+        'matric' => '23/0003',
+        'name' => 'Alozie Favour',
         'courses' => [
             ['code' => 'WEB101', 'title' => 'Introduction to Web Development', 'score' => 90, 'units' => 3],
             ['code' => 'DB101', 'title' => 'Database Management Systems', 'score' => 87, 'units' => 3],
@@ -31,8 +31,8 @@ $students = [
         ]
     ],
     [
-        'matric' => 'MTN004',
-        'name' => 'Hassan Muhammad',
+        'matric' => '23/0004',
+        'name' => 'Adenubi Gbenga',
         'courses' => [
             ['code' => 'WEB101', 'title' => 'Introduction to Web Development', 'score' => 76, 'units' => 3],
             ['code' => 'DB101', 'title' => 'Database Management Systems', 'score' => 81, 'units' => 3],
@@ -40,8 +40,8 @@ $students = [
         ]
     ],
     [
-        'matric' => 'MTN005',
-        'name' => 'Eze Ngozi',
+        'matric' => '23/0005',
+        'name' => 'Alo Oluwatobi',
         'courses' => [
             ['code' => 'WEB101', 'title' => 'Introduction to Web Development', 'score' => 88, 'units' => 3],
             ['code' => 'DB101', 'title' => 'Database Management Systems', 'score' => 91, 'units' => 3],
