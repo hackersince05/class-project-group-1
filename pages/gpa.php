@@ -13,13 +13,6 @@ $students = [
             ['code' => 'SENG404', 'title' => 'Software Project Management', 'score' => 82, 'units' => 3],
         ]
     ],
-        'courses' => [
-            ['code' => 'SENG401', 'title' => 'Software Design & Implementation', 'score' => 82, 'units' => 3],
-            ['code' => 'SENG402', 'title' => 'Database Systems for Software Engineers', 'score' => 79, 'units' => 3],
-            ['code' => 'SENG403', 'title' => 'Software Testing & Quality Assurance', 'score' => 92, 'units' => 3],
-            ['code' => 'SENG404', 'title' => 'Software Project Management', 'score' => 87, 'units' => 3],
-        ]
-    ],
     [
         'matric' => '23/0002',
         'name' => 'Chris-Esezobor Ejodamen',
@@ -38,6 +31,16 @@ $students = [
             ['code' => 'SENG402', 'title' => 'Database Systems for Software Engineers', 'score' => 87, 'units' => 3],
             ['code' => 'SENG403', 'title' => 'Software Testing & Quality Assurance', 'score' => 85, 'units' => 3],
             ['code' => 'SENG404', 'title' => 'Software Project Management', 'score' => 88, 'units' => 3],
+        ]
+    ],
+    [
+        'matric' => '23/0004',
+        'name' => 'Adenubi Gbenga',
+        'courses' => [
+            ['code' => 'SENG401', 'title' => 'Software Design & Implementation', 'score' => 76, 'units' => 3],
+            ['code' => 'SENG402', 'title' => 'Database Systems for Software Engineers', 'score' => 81, 'units' => 3],
+            ['code' => 'SENG403', 'title' => 'Software Testing & Quality Assurance', 'score' => 79, 'units' => 3],
+            ['code' => 'SENG404', 'title' => 'Software Project Management', 'score' => 80, 'units' => 3],
         ]
     ],
     [
