@@ -3,46 +3,16 @@ session_start();
 
 // Personal details of group members
 $members = [
-    [
-        'matric' => '23/0001',
-        'name' => 'Egbu Roni',
-        'blood_group' => 'O+',
-        'state_of_origin' => 'Enugu',
-        'phone_number' => '+234 802 345 6701',
-        'hobbies' => ['Programming', 'Reading', 'Gaming', 'Football']
-    ],
-    [
-        'matric' => '23/0002',
-        'name' => 'Chris-Esezobor Ejodamen',
-        'blood_group' => 'A+',
-        'state_of_origin' => 'Lagos',
-        'phone_number' => '+234 803 456 7802',
-        'hobbies' => ['Music Production', 'Basketball', 'Photography', 'Drawing']
-    ],
-    [
-        'matric' => '23/0003',
-        'name' => 'Alozie Favour',
-        'blood_group' => 'B+',
-        'state_of_origin' => 'Anambra',
-        'phone_number' => '+234 804 567 8903',
-        'hobbies' => ['Design', 'Cooking', 'Painting', 'Badminton']
-    ],
-    [
-        'matric' => '23/0004',
-        'name' => 'Adenubi Gbenga',
-        'blood_group' => 'AB+',
-        'state_of_origin' => 'Kano',
-        'phone_number' => '+234 805 678 9004',
-        'hobbies' => ['Web Development', 'Cycling', 'Movies', 'Teaching']
-    ],
-    [
-        'matric' => '23/0005',
-        'name' => 'Alo Oluwatobi',
-        'blood_group' => 'O-',
-        'state_of_origin' => 'Imo',
-        'phone_number' => '+234 806 789 0105',
-        'hobbies' => ['Coding', 'Volleyball', 'Writing', 'Traveling']
-    ]
+    [ 'matric' => '23/0038', 'name' => 'ADEBAJO OLUWATONI ESTHER', 'blood_group' => 'O+', 'state_of_origin' => 'Oyo', 'phone_number' => '+234 802 345 6738', 'hobbies' => ['Volunteering','Reading','Basketball'] ],
+    [ 'matric' => '23/0281', 'name' => 'ADENUBI GBENGA ISAIAH', 'blood_group' => 'A+', 'state_of_origin' => 'Lagos', 'phone_number' => '+234 803 456 6781', 'hobbies' => ['Coding','Photography','Football'] ],
+    [ 'matric' => '22/0129', 'name' => 'ADEOLA ENITAN-AYO OLUWASEUN', 'blood_group' => 'B+', 'state_of_origin' => 'Ondo', 'phone_number' => '+234 804 567 6129', 'hobbies' => ['Design','Blogging','Traveling'] ],
+    [ 'matric' => '22/0259', 'name' => 'AGOMUO WISDOM CHIEMEZIE', 'blood_group' => 'O-', 'state_of_origin' => 'Enugu', 'phone_number' => '+234 805 678 7259', 'hobbies' => ['Gaming','Music','Programming'] ],
+    [ 'matric' => '22/0166', 'name' => 'ALABI REUBEN OSIGBODI', 'blood_group' => 'AB+', 'state_of_origin' => 'Edo', 'phone_number' => '+234 806 789 7166', 'hobbies' => ['Chess','Reading','Coding'] ],
+    [ 'matric' => '23/0076', 'name' => 'ALO OLUWATOBI PETER', 'blood_group' => 'A-', 'state_of_origin' => 'Imo', 'phone_number' => '+234 807 890 7076', 'hobbies' => ['Volleyball','Coding','Hiking'] ],
+    [ 'matric' => '23/0219', 'name' => 'ALOZIE FAVOUR CHIZURUOKE', 'blood_group' => 'B-', 'state_of_origin' => 'Anambra', 'phone_number' => '+234 808 901 7219', 'hobbies' => ['Dancing','Singing','Drawing'] ],
+    [ 'matric' => '22/2227', 'name' => 'APAGU DAVID', 'blood_group' => 'O+', 'state_of_origin' => 'Delta', 'phone_number' => '+234 809 012 2227', 'hobbies' => ['Football','Cooking','Traveling'] ],
+    [ 'matric' => '23/0287', 'name' => 'CHRIS-ESEZOBOR EJODAMEN GEORGE', 'blood_group' => 'A+', 'state_of_origin' => 'Rivers', 'phone_number' => '+234 810 123 8287', 'hobbies' => ['Music Production','Basketball','Photography'] ],
+    [ 'matric' => '23/0268', 'name' => 'EGBU PRINCESS RONI', 'blood_group' => 'AB-', 'state_of_origin' => 'Anambra', 'phone_number' => '+234 811 234 6268', 'hobbies' => ['Fashion','Blogging','Photography'] ],
 ];
 ?>
 <!DOCTYPE html>

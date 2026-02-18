@@ -43,28 +43,53 @@ session_start();
                         </thead>
                         <tbody>
                             <tr>
-                                <td>23/0001</td>
-                                <td>Egbu Roni</td>
+                                <td>23/0038</td>
+                                <td>ADEBAJO OLUWATONI ESTHER</td>
                                 <td>SENG401, SENG402, SENG403, SENG404</td>
                             </tr>
                             <tr>
-                                <td>23/0002</td>
-                                <td>Chris-Esezobor Ejodamen</td>
+                                <td>23/0281</td>
+                                <td>ADENUBI GBENGA ISAIAH</td>
                                 <td>SENG401, SENG402, SENG403, SENG404</td>
                             </tr>
                             <tr>
-                                <td>23/0003</td>
-                                <td>Alozie Favour</td>
+                                <td>22/0129</td>
+                                <td>ADEOLA ENITAN-AYO OLUWASEUN</td>
                                 <td>SENG401, SENG402, SENG403, SENG404</td>
                             </tr>
                             <tr>
-                                <td>23/0004</td>
-                                <td>Adenubi Gbenga</td>
+                                <td>22/0259</td>
+                                <td>AGOMUO WISDOM CHIEMEZIE</td>
                                 <td>SENG401, SENG402, SENG403, SENG404</td>
                             </tr>
                             <tr>
-                                <td>23/0005</td>
-                                <td>Alo Oluwatobi</td>
+                                <td>22/0166</td>
+                                <td>ALABI REUBEN OSIGBODI</td>
+                                <td>SENG401, SENG402, SENG403, SENG404</td>
+                            </tr>
+                            <tr>
+                                <td>23/0076</td>
+                                <td>ALO OLUWATOBI PETER</td>
+                                <td>SENG401, SENG402, SENG403, SENG404</td>
+                            </tr>
+                            <tr>
+                                <td>23/0219</td>
+                                <td>ALOZIE FAVOUR CHIZURUOKE</td>
+                                <td>SENG401, SENG402, SENG403, SENG404</td>
+                            </tr>
+                            <tr>
+                                <td>22/2227</td>
+                                <td>APAGU DAVID</td>
+                                <td>SENG401, SENG402, SENG403, SENG404</td>
+                            </tr>
+                            <tr>
+                                <td>23/0287</td>
+                                <td>CHRIS-ESEZOBOR EJODAMEN GEORGE</td>
+                                <td>SENG401, SENG402, SENG403, SENG404</td>
+                            </tr>
+                            <tr>
+                                <td>23/0268</td>
+                                <td>EGBU PRINCESS RONI</td>
                                 <td>SENG401, SENG402, SENG403, SENG404</td>
                             </tr>
                         </tbody>

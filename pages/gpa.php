@@ -3,56 +3,66 @@ session_start();
 
 // Student grades for first semester
 $students = [
-    [
-        'matric' => '23/0001',
-        'name' => 'Egbu Roni',
-        'courses' => [
-            ['code' => 'SENG401', 'title' => 'Software Design & Implementation', 'score' => 78, 'units' => 3],
-            ['code' => 'SENG402', 'title' => 'Database Systems for Software Engineers', 'score' => 85, 'units' => 3],
-            ['code' => 'SENG403', 'title' => 'Software Testing & Quality Assurance', 'score' => 88, 'units' => 3],
-            ['code' => 'SENG404', 'title' => 'Software Project Management', 'score' => 82, 'units' => 3],
-        ]
-    ],
-    [
-        'matric' => '23/0002',
-        'name' => 'Chris-Esezobor Ejodamen',
-        'courses' => [
-            ['code' => 'SENG401', 'title' => 'Software Design & Implementation', 'score' => 82, 'units' => 3],
-            ['code' => 'SENG402', 'title' => 'Database Systems for Software Engineers', 'score' => 79, 'units' => 3],
-            ['code' => 'SENG403', 'title' => 'Software Testing & Quality Assurance', 'score' => 92, 'units' => 3],
-            ['code' => 'SENG404', 'title' => 'Software Project Management', 'score' => 87, 'units' => 3],
-        ]
-    ],
-    [
-        'matric' => '23/0003',
-        'name' => 'Alozie Favour',
-        'courses' => [
-            ['code' => 'SENG401', 'title' => 'Software Design & Implementation', 'score' => 90, 'units' => 3],
-            ['code' => 'SENG402', 'title' => 'Database Systems for Software Engineers', 'score' => 87, 'units' => 3],
-            ['code' => 'SENG403', 'title' => 'Software Testing & Quality Assurance', 'score' => 85, 'units' => 3],
-            ['code' => 'SENG404', 'title' => 'Software Project Management', 'score' => 88, 'units' => 3],
-        ]
-    ],
-    [
-        'matric' => '23/0004',
-        'name' => 'Adenubi Gbenga',
-        'courses' => [
-            ['code' => 'SENG401', 'title' => 'Software Design & Implementation', 'score' => 76, 'units' => 3],
-            ['code' => 'SENG402', 'title' => 'Database Systems for Software Engineers', 'score' => 81, 'units' => 3],
-            ['code' => 'SENG403', 'title' => 'Software Testing & Quality Assurance', 'score' => 79, 'units' => 3],
-            ['code' => 'SENG404', 'title' => 'Software Project Management', 'score' => 80, 'units' => 3],
-        ]
-    ],
-    [
-        'matric' => '23/0005',
-        'name' => 'Alo Oluwatobi',
-        'courses' => [
-            ['code' => 'SENG401', 'title' => 'Software Design & Implementation', 'score' => 88, 'units' => 3],
-            ['code' => 'SENG402', 'title' => 'Database Systems for Software Engineers', 'score' => 91, 'units' => 3],
-            ['code' => 'SENG403', 'title' => 'Software Testing & Quality Assurance', 'score' => 89, 'units' => 3],
-            ['code' => 'SENG404', 'title' => 'Software Project Management', 'score' => 93, 'units' => 3],
-        ]
-    ]
+    [ 'matric' => '23/0038', 'name' => 'ADEBAJO OLUWATONI ESTHER', 'courses' => [
+        ['code' => 'SENG401', 'title' => 'Software Design & Implementation', 'score' => 75, 'units' => 3],
+        ['code' => 'SENG402', 'title' => 'Database Systems for Software Engineers', 'score' => 75, 'units' => 3],
+        ['code' => 'SENG403', 'title' => 'Software Testing & Quality Assurance', 'score' => 75, 'units' => 3],
+        ['code' => 'SENG404', 'title' => 'Software Project Management', 'score' => 75, 'units' => 3],
+    ]],
+    [ 'matric' => '23/0281', 'name' => 'ADENUBI GBENGA ISAIAH', 'courses' => [
+        ['code' => 'SENG401', 'title' => 'Software Design & Implementation', 'score' => 76, 'units' => 3],
+        ['code' => 'SENG402', 'title' => 'Database Systems for Software Engineers', 'score' => 77, 'units' => 3],
+        ['code' => 'SENG403', 'title' => 'Software Testing & Quality Assurance', 'score' => 78, 'units' => 3],
+        ['code' => 'SENG404', 'title' => 'Software Project Management', 'score' => 79, 'units' => 3],
+    ]],
+    [ 'matric' => '22/0129', 'name' => 'ADEOLA ENITAN-AYO OLUWASEUN', 'courses' => [
+        ['code' => 'SENG401', 'title' => 'Software Design & Implementation', 'score' => 80, 'units' => 3],
+        ['code' => 'SENG402', 'title' => 'Database Systems for Software Engineers', 'score' => 82, 'units' => 3],
+        ['code' => 'SENG403', 'title' => 'Software Testing & Quality Assurance', 'score' => 79, 'units' => 3],
+        ['code' => 'SENG404', 'title' => 'Software Project Management', 'score' => 81, 'units' => 3],
+    ]],
+    [ 'matric' => '22/0259', 'name' => 'AGOMUO WISDOM CHIEMEZIE', 'courses' => [
+        ['code' => 'SENG401', 'title' => 'Software Design & Implementation', 'score' => 68, 'units' => 3],
+        ['code' => 'SENG402', 'title' => 'Database Systems for Software Engineers', 'score' => 70, 'units' => 3],
+        ['code' => 'SENG403', 'title' => 'Software Testing & Quality Assurance', 'score' => 72, 'units' => 3],
+        ['code' => 'SENG404', 'title' => 'Software Project Management', 'score' => 69, 'units' => 3],
+    ]],
+    [ 'matric' => '22/0166', 'name' => 'ALABI REUBEN OSIGBODI', 'courses' => [
+        ['code' => 'SENG401', 'title' => 'Software Design & Implementation', 'score' => 85, 'units' => 3],
+        ['code' => 'SENG402', 'title' => 'Database Systems for Software Engineers', 'score' => 84, 'units' => 3],
+        ['code' => 'SENG403', 'title' => 'Software Testing & Quality Assurance', 'score' => 86, 'units' => 3],
+        ['code' => 'SENG404', 'title' => 'Software Project Management', 'score' => 83, 'units' => 3],
+    ]],
+    [ 'matric' => '23/0076', 'name' => 'ALO OLUWATOBI PETER', 'courses' => [
+        ['code' => 'SENG401', 'title' => 'Software Design & Implementation', 'score' => 73, 'units' => 3],
+        ['code' => 'SENG402', 'title' => 'Database Systems for Software Engineers', 'score' => 74, 'units' => 3],
+        ['code' => 'SENG403', 'title' => 'Software Testing & Quality Assurance', 'score' => 75, 'units' => 3],
+        ['code' => 'SENG404', 'title' => 'Software Project Management', 'score' => 76, 'units' => 3],
+    ]],
+    [ 'matric' => '23/0219', 'name' => 'ALOZIE FAVOUR CHIZURUOKE', 'courses' => [
+        ['code' => 'SENG401', 'title' => 'Software Design & Implementation', 'score' => 88, 'units' => 3],
+        ['code' => 'SENG402', 'title' => 'Database Systems for Software Engineers', 'score' => 87, 'units' => 3],
+        ['code' => 'SENG403', 'title' => 'Software Testing & Quality Assurance', 'score' => 86, 'units' => 3],
+        ['code' => 'SENG404', 'title' => 'Software Project Management', 'score' => 85, 'units' => 3],
+    ]],
+    [ 'matric' => '22/2227', 'name' => 'APAGU DAVID', 'courses' => [
+        ['code' => 'SENG401', 'title' => 'Software Design & Implementation', 'score' => 66, 'units' => 3],
+        ['code' => 'SENG402', 'title' => 'Database Systems for Software Engineers', 'score' => 68, 'units' => 3],
+        ['code' => 'SENG403', 'title' => 'Software Testing & Quality Assurance', 'score' => 67, 'units' => 3],
+        ['code' => 'SENG404', 'title' => 'Software Project Management', 'score' => 69, 'units' => 3],
+    ]],
+    [ 'matric' => '23/0287', 'name' => 'CHRIS-ESEZOBOR EJODAMEN GEORGE', 'courses' => [
+        ['code' => 'SENG401', 'title' => 'Software Design & Implementation', 'score' => 91, 'units' => 3],
+        ['code' => 'SENG402', 'title' => 'Database Systems for Software Engineers', 'score' => 90, 'units' => 3],
+        ['code' => 'SENG403', 'title' => 'Software Testing & Quality Assurance', 'score' => 92, 'units' => 3],
+        ['code' => 'SENG404', 'title' => 'Software Project Management', 'score' => 89, 'units' => 3],
+    ]],
+    [ 'matric' => '23/0268', 'name' => 'EGBU PRINCESS RONI', 'courses' => [
+        ['code' => 'SENG401', 'title' => 'Software Design & Implementation', 'score' => 82, 'units' => 3],
+        ['code' => 'SENG402', 'title' => 'Database Systems for Software Engineers', 'score' => 80, 'units' => 3],
+        ['code' => 'SENG403', 'title' => 'Software Testing & Quality Assurance', 'score' => 81, 'units' => 3],
+        ['code' => 'SENG404', 'title' => 'Software Project Management', 'score' => 83, 'units' => 3],
+    ]],
 ];
 
 // Calculate GPA (5-point scale)
