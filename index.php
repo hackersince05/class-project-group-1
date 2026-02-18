@@ -43,29 +43,29 @@ session_start();
                         </thead>
                         <tbody>
                             <tr>
-                                <td>MTN001</td>
-                                <td>Chukwu Obinna</td>
-                                <td>WEB101, DB101, SE101</td>
+                                <td>23/0001</td>
+                                <td>Egbu Roni</td>
+                                <td>SENG401, SENG402, SENG403, SENG404</td>
                             </tr>
                             <tr>
-                                <td>MTN002</td>
-                                <td>Adeyemi Toluwani</td>
-                                <td>WEB101, DB101, SE101</td>
+                                <td>23/0002</td>
+                                <td>Chris-Esezobor Ejodamen</td>
+                                <td>SENG401, SENG402, SENG403, SENG404</td>
                             </tr>
                             <tr>
-                                <td>MTN003</td>
-                                <td>Okafor Chioma</td>
-                                <td>WEB101, DB101, SE101</td>
+                                <td>23/0003</td>
+                                <td>Alozie Favour</td>
+                                <td>SENG401, SENG402, SENG403, SENG404</td>
                             </tr>
                             <tr>
-                                <td>MTN004</td>
-                                <td>Hassan Muhammad</td>
-                                <td>WEB101, DB101, SE101</td>
+                                <td>23/0004</td>
+                                <td>Adenubi Gbenga</td>
+                                <td>SENG401, SENG402, SENG403, SENG404</td>
                             </tr>
                             <tr>
-                                <td>MTN005</td>
-                                <td>Eze Ngozi</td>
-                                <td>WEB101, DB101, SE101</td>
+                                <td>23/0005</td>
+                                <td>Alo Oluwatobi</td>
+                                <td>SENG401, SENG402, SENG403, SENG404</td>
                             </tr>
                         </tbody>
                     </table>
@@ -83,19 +83,24 @@ session_start();
                         </thead>
                         <tbody>
                             <tr>
-                                <td>WEB101</td>
-                                <td>Introduction to Web Development</td>
+                                <td>SENG401</td>
+                                <td>Software Design & Implementation</td>
                                 <td>3</td>
                             </tr>
                             <tr>
-                                <td>DB101</td>
-                                <td>Database Management Systems</td>
+                                <td>SENG402</td>
+                                <td>Database Systems for Software Engineers</td>
                                 <td>3</td>
                             </tr>
                             <tr>
-                                <td>SE101</td>
-                                <td>Software Engineering Principles</td>
-                                <td>4</td>
+                                <td>SENG403</td>
+                                <td>Software Testing & Quality Assurance</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>SENG404</td>
+                                <td>Software Project Management</td>
+                                <td>3</td>
                             </tr>
                         </tbody>
                     </table>

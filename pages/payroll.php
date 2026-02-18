@@ -15,11 +15,24 @@ $payroll_data = [
     ['emp_id' => 'EMP010', 'name' => 'Zainab Ibrahim', 'hourly_rate' => 5400, 'hours_worked' => 159],
 ];
 
-// Add more employees to reach 50+
+// Add more employees with real Nigerian names
+$more_names = [
+    'Chioma Okonkwo', 'Oluwaseun Adebayo', 'Nkechi Iheanacho', 'Emeka Okoro', 'Amarachi Eze',
+    'Tunde Oladele', 'Zainab Hassan', 'Adanna Nwankwo', 'Ifeanyi Uchenna', 'Hauwa Ibrahim',
+    'Chinedu Obi', 'Toyin Okafor', 'Blessing Ezeoke', 'Segun Owolabi', 'Amara Njoku',
+    'Femi Akintunde', 'Ifeoma Okeke', 'Adebayo Ogunniyi', 'Nonso Ekwensi', 'Ayo Oladele',
+    'Chidi Mba', 'Adaeze Okafor', 'Kolade Olatunde', 'Titilola Adekunle', 'Ivor Okonkwo',
+    'Anthonia Okafor', 'Adekunle Oseni', 'Onyinyechi Momah', 'Abimbola Adeniyi', 'Kaycee Onuora',
+    'Odunayo Bello', 'Chidinma Azubuike', 'Seyi Okonkwo', 'Folasade Oladiji', 'Ifeanyi Okoro',
+    'Ijeoma Ayogu', 'Adewale Oladele', 'Chukwuemeka Okoro', 'Yetunde Okafor', 'Amara Hassan',
+    'Olufemi Adeniyi', 'Kelechi Okafor', 'Ebube Okeke', 'Tonia Osita', 'Emeka Nwankwo',
+    'Zainab Suleiman', 'Fauzy Oluwafemi', 'Adanna Eze', 'Kolawole Olademeji', 'Chinedu Okafor'
+];
+
 for ($i = 11; $i <= 55; $i++) {
     $payroll_data[] = [
         'emp_id' => 'EMP' . str_pad($i, 3, '0', STR_PAD_LEFT),
-        'name' => 'Employee ' . $i,
+        'name' => $more_names[$i - 11],
         'hourly_rate' => 5000 + rand(0, 2000),
         'hours_worked' => 155 + rand(0, 8)
     ];

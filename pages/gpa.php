@@ -7,50 +7,52 @@ $students = [
         'matric' => '23/0001',
         'name' => 'Egbu Roni',
         'courses' => [
-            ['code' => 'WEB101', 'title' => 'Introduction to Web Development', 'score' => 78, 'units' => 3],
-            ['code' => 'DB101', 'title' => 'Database Management Systems', 'score' => 85, 'units' => 3],
-            ['code' => 'SE101', 'title' => 'Software Engineering Principles', 'score' => 88, 'units' => 4],
+            ['code' => 'SENG401', 'title' => 'Software Design & Implementation', 'score' => 78, 'units' => 3],
+            ['code' => 'SENG402', 'title' => 'Database Systems for Software Engineers', 'score' => 85, 'units' => 3],
+            ['code' => 'SENG403', 'title' => 'Software Testing & Quality Assurance', 'score' => 88, 'units' => 3],
+            ['code' => 'SENG404', 'title' => 'Software Project Management', 'score' => 82, 'units' => 3],
+        ]
+    ],
+        'courses' => [
+            ['code' => 'SENG401', 'title' => 'Software Design & Implementation', 'score' => 82, 'units' => 3],
+            ['code' => 'SENG402', 'title' => 'Database Systems for Software Engineers', 'score' => 79, 'units' => 3],
+            ['code' => 'SENG403', 'title' => 'Software Testing & Quality Assurance', 'score' => 92, 'units' => 3],
+            ['code' => 'SENG404', 'title' => 'Software Project Management', 'score' => 87, 'units' => 3],
         ]
     ],
     [
         'matric' => '23/0002',
         'name' => 'Chris-Esezobor Ejodamen',
         'courses' => [
-            ['code' => 'WEB101', 'title' => 'Introduction to Web Development', 'score' => 82, 'units' => 3],
-            ['code' => 'DB101', 'title' => 'Database Management Systems', 'score' => 79, 'units' => 3],
-            ['code' => 'SE101', 'title' => 'Software Engineering Principles', 'score' => 92, 'units' => 4],
+            ['code' => 'SENG401', 'title' => 'Software Design & Implementation', 'score' => 82, 'units' => 3],
+            ['code' => 'SENG402', 'title' => 'Database Systems for Software Engineers', 'score' => 79, 'units' => 3],
+            ['code' => 'SENG403', 'title' => 'Software Testing & Quality Assurance', 'score' => 92, 'units' => 3],
+            ['code' => 'SENG404', 'title' => 'Software Project Management', 'score' => 87, 'units' => 3],
         ]
     ],
     [
         'matric' => '23/0003',
         'name' => 'Alozie Favour',
         'courses' => [
-            ['code' => 'WEB101', 'title' => 'Introduction to Web Development', 'score' => 90, 'units' => 3],
-            ['code' => 'DB101', 'title' => 'Database Management Systems', 'score' => 87, 'units' => 3],
-            ['code' => 'SE101', 'title' => 'Software Engineering Principles', 'score' => 85, 'units' => 4],
-        ]
-    ],
-    [
-        'matric' => '23/0004',
-        'name' => 'Adenubi Gbenga',
-        'courses' => [
-            ['code' => 'WEB101', 'title' => 'Introduction to Web Development', 'score' => 76, 'units' => 3],
-            ['code' => 'DB101', 'title' => 'Database Management Systems', 'score' => 81, 'units' => 3],
-            ['code' => 'SE101', 'title' => 'Software Engineering Principles', 'score' => 79, 'units' => 4],
+            ['code' => 'SENG401', 'title' => 'Software Design & Implementation', 'score' => 90, 'units' => 3],
+            ['code' => 'SENG402', 'title' => 'Database Systems for Software Engineers', 'score' => 87, 'units' => 3],
+            ['code' => 'SENG403', 'title' => 'Software Testing & Quality Assurance', 'score' => 85, 'units' => 3],
+            ['code' => 'SENG404', 'title' => 'Software Project Management', 'score' => 88, 'units' => 3],
         ]
     ],
     [
         'matric' => '23/0005',
         'name' => 'Alo Oluwatobi',
         'courses' => [
-            ['code' => 'WEB101', 'title' => 'Introduction to Web Development', 'score' => 88, 'units' => 3],
-            ['code' => 'DB101', 'title' => 'Database Management Systems', 'score' => 91, 'units' => 3],
-            ['code' => 'SE101', 'title' => 'Software Engineering Principles', 'score' => 89, 'units' => 4],
+            ['code' => 'SENG401', 'title' => 'Software Design & Implementation', 'score' => 88, 'units' => 3],
+            ['code' => 'SENG402', 'title' => 'Database Systems for Software Engineers', 'score' => 91, 'units' => 3],
+            ['code' => 'SENG403', 'title' => 'Software Testing & Quality Assurance', 'score' => 89, 'units' => 3],
+            ['code' => 'SENG404', 'title' => 'Software Project Management', 'score' => 93, 'units' => 3],
         ]
     ]
 ];
 
-// Calculate GPA
+// Calculate GPA (5-point scale)
 function calculateGPA($courses) {
     $total_points = 0;
     $total_units = 0;
@@ -59,11 +61,12 @@ function calculateGPA($courses) {
         $score = $course['score'];
         $units = $course['units'];
         
-        // Grade calculation: 4.0 scale
-        if ($score >= 90) $grade_point = 4.0;
-        elseif ($score >= 80) $grade_point = 3.5;
+        // Grade calculation: 5.0 scale
+        if ($score >= 90) $grade_point = 5.0;
+        elseif ($score >= 80) $grade_point = 4.0;
         elseif ($score >= 70) $grade_point = 3.0;
         elseif ($score >= 60) $grade_point = 2.0;
+        elseif ($score >= 50) $grade_point = 1.0;
         else $grade_point = 0.0;
         
         $total_points += ($grade_point * $units);
@@ -153,7 +156,7 @@ function getLetterGrade($score) {
                             </tbody>
                         </table>
                         <div class="gpa-result">
-                            <h4>First Semester GPA: <span class="gpa-value"><?php echo $gpa; ?>/4.0</span></h4>
+                            <h4>First Semester GPA: <span class="gpa-value"><?php echo $gpa; ?>/5.0</span></h4>
                         </div>
                     </div>
                     <?php
@@ -167,15 +170,15 @@ function getLetterGrade($score) {
                     <div class="summary-stats">
                         <div class="stat">
                             <h4>Average GPA</h4>
-                            <p class="stat-value"><?php echo $avg_gpa; ?>/4.0</p>
+                            <p class="stat-value"><?php echo $avg_gpa; ?>/5.0</p>
                         </div>
                         <div class="stat">
                             <h4>Highest GPA</h4>
-                            <p class="stat-value"><?php echo $highest_gpa; ?>/4.0</p>
+                            <p class="stat-value"><?php echo $highest_gpa; ?>/5.0</p>
                         </div>
                         <div class="stat">
                             <h4>Lowest GPA</h4>
-                            <p class="stat-value"><?php echo $lowest_gpa; ?>/4.0</p>
+                            <p class="stat-value"><?php echo $lowest_gpa; ?>/5.0</p>
                         </div>
                     </div>
                 </div>
