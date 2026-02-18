@@ -1,0 +1,28 @@
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.DS_Store
+
+# PHP
+.env
+.env.local
+.env.*.local
+composer.lock
+/vendor/
+
+# Node (in case you add npm packages later)
+node_modules/
+package-lock.json
+yarn.lock
+
+# System files
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
